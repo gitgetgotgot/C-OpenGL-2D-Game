@@ -1,10 +1,16 @@
 # C-OpenGL-2D-Game
 Simple 2d sandbox
 
-How to build (Windows):
+# How to build (Windows):
+
 conan install . --output-folder=build --build=missing
+
 cmake -B build -S . -DCMAKE_TOOLCHAIN_FILE="build/conan_toolchain.cmake"
-#build release
+
+# build release:
+
 cmake --build build --config Release
-#build debug
+
+# build debug:
+
 cmake --build build --config Debug
