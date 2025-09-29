@@ -1,4 +1,4 @@
-# C-OpenGL-2D-Game
+# C++-OpenGL-2D-Game
 Simple 2d sandbox
 
 # How to build (Windows):
